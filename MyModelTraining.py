@@ -12,6 +12,8 @@ def label(i):
         return 1
 
 
+
+
 random_numbers = np.random.randint(1, 1000, 4000)  # Puedes ajustar el rango y el tamaño según tus necesidades
 X = random_numbers.reshape(-1, 1)
 y = [label(n) for n in random_numbers]
